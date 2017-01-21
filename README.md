@@ -21,9 +21,9 @@ python -m unittest
 
 ```
 
-Notice that there's a __init__.py file in the pig directory so it can be
+Notice that there's a \_\_init\_\_.py file in the pig directory so it can be
 imported as a module to the tests.
 
-And there's a __init__.py file in the test directory, so unittest's test
+And there's a \_\_init\_\_.py file in the test directory, so unittest's test
 discovery can find all the tests in both the files in that directory and
 run them all.
